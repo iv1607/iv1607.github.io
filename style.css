@@ -60,6 +60,27 @@ body {
 	font-size: 1.5em;
 }
 
+.content a:link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #666;
+}
+
+.content a:visited {
+	text-decoration: none;
+	color:#666;
+}
+
+.content a:hover{
+	color: #336699;
+}
+
+.content-contact {
+	width: 100%;
+	padding: 0.2em;
+	font-size: 1.5em;
+}
+
 footer {
 	padding: 1rem;
 	text-align: center;
