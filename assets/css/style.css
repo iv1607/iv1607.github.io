@@ -99,6 +99,14 @@ a:hover {
   }
 }
 
+/* Ensuring the hero image is responsive on smaller screens */
+@media (max-width: 768px) {
+  #hero {
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
 .overlay-mf {
   background-color: #0078ff;
 }
